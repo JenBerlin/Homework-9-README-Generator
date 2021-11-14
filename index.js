@@ -35,11 +35,16 @@ const questions = [
     message: "Contribution guidelines:",
     name: "guidelines",
   },
-
   {
     type: "input",
     message: "Test instructions:",
     name: "test",
+  },
+  {
+    type: "list",
+    message: "Which license is used for the application?",
+    name: "license",
+    choices: ["MIT", "GPL", "BSD", "Apache"],
   },
 ];
 
