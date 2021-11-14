@@ -16,14 +16,30 @@ const questions = [
     name: "title",
   },
   {
-    type: "password",
-    message: "What is your password?",
+    type: "input",
+    message: "Description of the project:",
     name: "description",
   },
   {
-    type: "password",
-    message: "Re-enter password to confirm:",
-    name: "confirm",
+    type: "input",
+    message: "Installation instructions:",
+    name: "installation",
+  },
+  {
+    type: "input",
+    message: "Usage information:",
+    name: "usage",
+  },
+  {
+    type: "input",
+    message: "Contribution guidelines:",
+    name: "guidelines",
+  },
+
+  {
+    type: "input",
+    message: "Test instructions:",
+    name: "test",
   },
 ];
 
