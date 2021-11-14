@@ -77,7 +77,6 @@ function init() {
     .then((answers) => {
       const markdownString = generateMarkdown(answers);
       writeToFile("README-1.md", markdownString);
-      console.log(markdownString);
       // Use user feedback for... whatever!!
     })
     .catch((error) => {
