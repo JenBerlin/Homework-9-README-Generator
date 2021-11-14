@@ -44,7 +44,22 @@ const questions = [
     type: "list",
     message: "Which license is used for the application?",
     name: "license",
-    choices: ["MIT", "GPL", "BSD", "Apache"],
+    choices: [
+      "Apache 2.0 License",
+      "Boost Software License 1.0",
+      "BSD 3-Clause License",
+      "BSD 2-Clause License",
+    ],
+  },
+  {
+    type: "input",
+    message: "Your GitHub username:",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "Your Email address:",
+    name: "email",
   },
 ];
 
