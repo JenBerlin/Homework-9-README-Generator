@@ -3,12 +3,19 @@
 
 ## Table of content
 [Description](#description-id)
+
 [Installation](#installation-id)
+
 [Usage](#usage-id)
-[Contributing](#contributing-id)
+
+[Contribution](#contribution-id)
+
 [Tests](#tests-id)
+
 [License](#license-id)
+
 [GutHub Link](#github-id)
+
 [Contact](#contact-id)
 
 ## <a name="description-id">Description</a>
@@ -20,16 +27,14 @@ bla
 ## <a name="usage-id">Usage</a>
 bla
 
-## <a name="contributing-id>Contributing</a>
+## <a name="contribution-id">Contribution</a>
 bla
 
 ## <a name="tests-id">Tests</a>
 bla
 
 ## <a name="license-id">License</a>
-The 2.0 version of the Apache License, approved by the ASF in 2004, helps us achieve our goal of providing reliable and long-lived software products through collaborative, open-source software development. 
-    
-    All packages produced by the ASF are implicitly licensed under the Apache License, Version 2.0, unless otherwise explicitly stated.
+The 2.0 version of the Apache License, approved by the ASF in 2004, helps us achieve our goal of providing reliable and long-lived software products through collaborative, open-source software development. All packages produced by the ASF are implicitly licensed under the Apache License, Version 2.0, unless otherwise explicitly stated.
 
 https://www.apache.org/licenses/LICENSE-2.0
 

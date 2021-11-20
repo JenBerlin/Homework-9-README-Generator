@@ -1,8 +1,6 @@
 const licenses = {
   "Apache 2.0 License": {
-    text: `The 2.0 version of the Apache License, approved by the ASF in 2004, helps us achieve our goal of providing reliable and long-lived software products through collaborative, open-source software development. 
-    
-    All packages produced by the ASF are implicitly licensed under the Apache License, Version 2.0, unless otherwise explicitly stated.`,
+    text: `The 2.0 version of the Apache License, approved by the ASF in 2004, helps us achieve our goal of providing reliable and long-lived software products through collaborative, open-source software development. All packages produced by the ASF are implicitly licensed under the Apache License, Version 2.0, unless otherwise explicitly stated.`,
     link: "https://www.apache.org/licenses/LICENSE-2.0",
     badge:
       "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
@@ -55,12 +53,19 @@ function generateMarkdown(answers) {
 
 ## Table of content
 [Description](#description-id)
+
 [Installation](#installation-id)
+
 [Usage](#usage-id)
-[Contributing](#contributing-id)
+
+[Contribution](#contribution-id)
+
 [Tests](#tests-id)
+
 [License](#license-id)
+
 [GutHub Link](#github-id)
+
 [Contact](#contact-id)
 
 ## <a name="description-id">Description</a>
@@ -72,7 +77,7 @@ ${answers.installation}
 ## <a name="usage-id">Usage</a>
 ${answers.usage}
 
-## <a name="contributing-id>Contributing</a>
+## <a name="contribution-id">Contribution</a>
 ${answers.guidelines}
 
 ## <a name="tests-id">Tests</a>
