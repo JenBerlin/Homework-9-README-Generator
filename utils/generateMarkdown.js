@@ -52,14 +52,14 @@ function generateMarkdown(answers) {
   ${renderLicenseBadge(answers.license)}
 
 ## Table of content
-[Description](#description-id)
-[Installation](#installation-id)
-[Usage](#usage-id)
-[Contribution](#contribution-id)
-[Tests](#tests-id)
-[License](#license-id)
-[GutHub Link](#github-id)
-[Contact](#contact-id)
+- [Description](#description-id)
+- [Installation](#installation-id)
+- [Usage](#usage-id)
+- [Contribution](#contribution-id)
+- [Tests](#tests-id)
+- [License](#license-id)
+- [GutHub Link](#github-id)
+- [Contact](#contact-id)
 
 ## <a name="description-id">Description</a>
 ${answers.description}
