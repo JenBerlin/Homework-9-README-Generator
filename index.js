@@ -6,11 +6,6 @@ const fs = require("fs");
 // TODO: Create an array of questions for user input
 const questions = [
   {
-    // Title of the project
-    // What is the description?
-    // Table contents
-    // Installation
-    // ...
     type: "input",
     message: "Title of the project?",
     name: "title",
@@ -76,15 +71,11 @@ function init() {
     .prompt(questions)
     .then((answers) => {
       const markdownString = generateMarkdown(answers);
-      writeToFile("README-1.md", markdownString);
+      writeToFile("README.md", markdownString);
       // Use user feedback for... whatever!!
     })
     .catch((error) => {
-      if (error.isTtyError) {
-        // Prompt couldn't be rendered in the current environment
-      } else {
-        // Something else went wrong
-      }
+      console.error(error);
     });
 }
 
