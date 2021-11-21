@@ -3,27 +3,32 @@
 Table of content
 
 - [Description](#description)
+- [Building Structure](#buildingstructure)
+- [Screenshots](#screenshots)
+- [Tech/Framwork used](#screenshots)
+- [Repositery content + link](#repositery)
 
-##Description
+#Description
+
 This application is an commandline application, which allows the user to generate a README file just by using the terminal - if all files are in place. By starting the application the user will get asked several questions and the input represent the README content in the end. The question itself are in such a way structured that they refer to a main README file headline/section. After the completion a README-generated.md gets automatically created and saved on the repositery.
 
-##Building Structure
+#Building Structure
 
 index.js: is holding the questions and two fuctions: wirteToFile + start
 
 generateMarkdown.js: is holding the license list content and four fuctions: render LicenseBedge + render LicenseLink + renderLicenseSection + generateMarkdown and the module.exports
 
-##Screenshots
+#Screenshots
 
 ![Getting Started](./image/1-Screenshot.png)
 
-##Tech/Framwork used
+#Tech/Framwork used
 
 - Node.js
 - npm require
 - JavaScript
 
-##Repositery content + link
+#Repositery content + link
 
 - Given-README.md
   - README.md
