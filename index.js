@@ -66,12 +66,12 @@ function writeToFile(fileName, answers) {
 }
 
 // TODO: Create a function to initialize app
-function init() {
+function start() {
   inquirer
     .prompt(questions)
     .then((answers) => {
       const markdownString = generateMarkdown(answers);
-      writeToFile("README.md", markdownString);
+      writeToFile("README-generated.md", markdownString);
       // Use user feedback for... whatever!!
     })
     .catch((error) => {
@@ -80,4 +80,4 @@ function init() {
 }
 
 // Function call to initialize app
-init();
+start();
